@@ -1,0 +1,25 @@
+/* stylelint-disable */
+/* stylelint-disable-next-line */
+@tailwind base;
+/* stylelint-disable-next-line */
+@tailwind components;
+/* stylelint-disable-next-line */
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* stylelint-disable-next-line */
+    @apply bg-primary text-white font-sans antialiased;
+  }
+}
+
+/* Glassmorphism utilities */
+.glass {
+  /* stylelint-disable-next-line */
+  @apply bg-secondary/30 backdrop-blur-lg border border-white/10;
+}
+
+.glass-card {
+  /* stylelint-disable-next-line */
+  @apply glass rounded-xl p-6 shadow-xl;
+}
